@@ -1,0 +1,123 @@
+*{
+    font-family: Arial;
+}
+.firstdiv {
+    max-width:90 vw;
+    height: 40vh;
+    background-color: rgb(240, 239, 239);
+    margin: 60px 55px 35px 55px;
+}
+.space{
+    margin-top: 10px;
+}
+.button1 {
+    border: none;
+    border-radius: 3px;
+    background-color:  #186fc0c0;
+    text-align: center;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 4px;
+}
+
+.spacing {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.headspacing{  
+    position: relative;
+    top: 20px; 
+    font-size: 46px;   
+}
+
+
+.padding {
+    padding: 30px 50px 30px 50px;
+}
+
+.line {
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 18px;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.subheading {
+    font-size: 28px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smalldiv { 
+    width: 20.8vw;
+    height: 46vh;
+    border: 1px solid black;
+}
+
+.divspacing {
+    margin-right: 11px;
+}
+.button2{
+    border: none;
+    border-radius: 3px;
+    margin-left: 3px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.image {
+    margin: 2px;
+    height: 19vh;
+    width: 203px;
+}
+.align {
+    text-align: center;
+}
+
+.line2 {
+    
+    height: 1px;
+    background-color: lightgray;
+}
+@media only screen and (max-width: 480px)
+{   .smalldiv{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 1px;
+    }
+    .button1{
+        margin-left: 4px;
+        margin-bottom: 10px;
+    }
+
+    .image{
+
+        width: 99%;
+        height: auto;
+        object-fit: contain;
+    }
+    .firstdiv{
+        word-wrap: break-all;
+    }
+    .headspacing{
+        font-weight: bold;
+        font-size:  20px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .padding {
+        padding: 0px;
+    }
+    .firstdiv{
+        padding: 4px;
+    }
+    
+}
